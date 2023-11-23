@@ -36,3 +36,18 @@ var name: String = “Sarah” //declared explicitly, notice how String is capit
 var name = “Sarah” //declared implicitly 
 ```
 
+## More Information on How Data Types Work
+Swift is statically and strongly typed, meaning that the data type is checked at compile time and Swift does not implicitly convert data types. Swift is immutable, meaning that variables cannot change types after they are declared. 
+
+`​num = num + "five" //does not work because Swift is strongly typed`
+
+```
+var test = 5
+test = "hello" // does not work because Swift is immutable
+```
+
+Swift can be typed explicitly, but it can also be typed implicitly. There are certain situations where a variable needs to be explicitly declared, however, most of the time this is not the case.
+
+`var anotherArray: Array<Any> = ["red", 20.5, true, 5] //variable type needs to be explicitly declared because Array has multiple different types of data`
+
+`var _grades = [90, 88, 60, 74] //variable type does not need to be explicitly typed because Swift can imply the Array takes integers`
