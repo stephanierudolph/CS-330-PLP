@@ -26,7 +26,7 @@
 
 1. Variable names can start with a letter, underscore, or dollar sign.
 2. Variable names can NOT start with a number.
-3. Types and protocols use UpperCamelCase, whereas everything else, including variable names, use lowerCamelCase. 
+3. Swift uses the naming convention of UpperCamelCase for types and protocols and everything else, including variable names, use lowerCamelCase. 
 4. Boolean values are declared with a lowercase `true` or `false`.
 5. Data types can be declared either implicitly or explicitly. 
 6. You cannot reassign a variable to a different data type than the one it was originally declared as.
