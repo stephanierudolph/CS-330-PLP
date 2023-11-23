@@ -52,6 +52,15 @@ Swift can be typed explicitly, but it can also be typed implicitly. There are ce
 
 `var _grades = [90, 88, 60, 74] //variable type does not need to be explicitly typed because Swift can imply the Array takes integers`
 
+Mixed type operations are not allowed. To get around this, you must convert the data type. 
+```
+var num1 = 5
+var num2 = 10.6
+var num3 = num1 + num2 //does not work
+var num3 = Double(num1) + num2
+```
+
+
 ## Reserved words
 ### These words cannot be used as variable names in Swift. 
 Any, as, associatedtype, break, case, catch, class, continue, default, defer, deinit, do, else, enum, extension, false, fileprivate, for, func, guard, import, if, in, init, internal, is, let, nil, open, operator, private, precendencegroup, protocol, public, repeat, rethrows, return
