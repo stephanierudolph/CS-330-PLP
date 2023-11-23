@@ -81,7 +81,7 @@ static, self, Self, struct, subscript, super, switch, throw, throws, true, try, 
 #### Bitwise Operators
 << (left shift), >> (right shift), & (and), | (or), ^ (xor), ~ (compliment)
 #### Comparison Operators
->, <, ==, !=, >=, <=, 
+<, >, ==, !=, >=, <=, 
 #### Logical Operators
 &&, ||, !
 #### Other Operators
