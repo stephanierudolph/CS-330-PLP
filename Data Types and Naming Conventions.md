@@ -16,7 +16,11 @@
 `var boolExample: Bool = true`
 
 -Array: a data type that can contain multiple data types
-`var arrayExample: Array<String> = [“itemOne”, “itemTwo”]`
+```
+var arrayExample: Array<String> = [“itemOne”, “itemTwo”]`
+var aList: [Int] = [0, 8, 900]
+var _grades = [90, 88, 60, 74]
+```
 
 -Dictionary: a data type that has a key-value pairing
 `var dictionaryExample: Dictionary<String, Int> = [“keyOne”: 0, “keyTwo”: 1]`
@@ -65,4 +69,20 @@ var num3 = Double(num1) + num2
 ### These words cannot be used as variable names in Swift. 
 Any, as, associatedtype, break, case, catch, class, continue, default, defer, deinit, do, else, enum, extension, false, fileprivate, for, func, guard, import, if, in, init, internal, is, let, nil, open, operator, private, precendencegroup, protocol, public, repeat, rethrows, return
 static, self, Self, struct, subscript, super, switch, throw, throws, true, try, typealias, var, where, while
+
+## Available Operators
+#### Arithmetic Operators
++, -, /, *, %
+#### Assignment Operators
+=, +=, -=, /=, *=, %=, 
+#### Bitwise Operators
+<< (left shift), >> (right shift), & (and), | (or), ^ (xor), ~ (compliment)
+#### Comparison Operators
+>, <, ==, !=, >=, <=, 
+#### Logical Operators
+&&, ||, !
+#### Other Operators
+condition ? a : b (if condition true then a, else b), a ?? b (default value is nil if no value passed by user), ++ (increment by 1), – (decrement by 1)
+#### Range Operators
+a…b (closed range), a..<b (from a to b but does not include b), [a…] (runs for as long as is possible)
 
