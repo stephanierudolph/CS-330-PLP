@@ -51,3 +51,9 @@ Swift can be typed explicitly, but it can also be typed implicitly. There are ce
 `var anotherArray: Array<Any> = ["red", 20.5, true, 5] //variable type needs to be explicitly declared because Array has multiple different types of data`
 
 `var _grades = [90, 88, 60, 74] //variable type does not need to be explicitly typed because Swift can imply the Array takes integers`
+
+## Reserved words
+### These words cannot be used as variable names in Swift. 
+Any, as, associatedtype, break, case, catch, class, continue, default, defer, deinit, do, else, enum, extension, false, fileprivate, for, func, guard, import, if, in, init, internal, is, let, nil, open, operator, private, precendencegroup, protocol, public, repeat, rethrows, return
+static, self, Self, struct, subscript, super, switch, throw, throws, true, try, typealias, var, where, while
+
