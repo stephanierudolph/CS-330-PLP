@@ -89,3 +89,10 @@ condition ? a : b (if condition true then a, else b), a ?? b (default value is n
 #### Range Operators
 a…b (closed range), a..<b (from a to b but does not include b), [a…] (runs for as long as is possible)
 
+## Sources
+https://medium.com/@bkryslky/types-in-swift-212676e01e9d
+https://www.programiz.com/swift-programming/data-types
+https://www.swift.org/documentation/api-design-guidelines/
+https://swiftbydeya.com/swift-keywords/
+https://www.geeksforgeeks.org/swift-operators/
+
