@@ -1,4 +1,5 @@
-### In Swift, there are 7 different data types. 
+# Data Types
+## In Swift, there are 7 different data types. 
 -Integer: an integer number
 `var intExample: Int = 5`
 
@@ -20,7 +21,8 @@
 -Dictionary: a data type that has a key-value pairing
 `var dictionaryExample: Dictionary<String, Int> = [“keyOne”: 0, “keyTwo”: 1]`
 
-### Here are some important things to know about data types:
+# Naming Conventions
+## Here are some important things to know about data types:
 
 1. Variable names can start with a letter, underscore, or dollar sign.
 2. Variable names can NOT start with a number.
